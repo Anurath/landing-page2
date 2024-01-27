@@ -66,19 +66,17 @@
     font-size:15px;
     border-top-right-radius:5px;
     border-bottom-right-radius:5px;
-}
-.btn:focus{
-    outline:none;
+    border:none;
 }
 .src:focus{
     outline:none;
 }
 .content{
-    margin-top:200px;
-    margin-left:90px;
-    font: size 16px;
+    font-size :16px;
     font-family:Arial, Helvetica, sans-serif;
     width:500px;
+    display:flex;
+    flex-direction:column;
 }
 .join{
     height:40px;
@@ -108,8 +106,6 @@
     position:relative;
     background:rgb(43, 38, 38);
     border-radius:8px;
-    top:-250px;
-    left:1000px;
     display:flex;
     flex-direction:column;
     justify-content:center;
@@ -155,4 +151,9 @@
 .sm-i:hover{
     color:#ff7200;
     transition:0.3s ease;
+}
+.main2{
+    margin-top:200px;
+    display:flex;
+    justify-content:space-around;
 }
